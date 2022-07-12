@@ -12,7 +12,7 @@ You need <a href="https://github.com/lotabout/skim" target="_blank">sk</a> binar
 
 # Installation
 
-You can use this command <i>(tested on BASH and ZSH)</i>:
+You can add this block at the end of your `$SHELLrc` file <i>(tested on BASH and ZSH)</i>:
 
 ```shell
 ZJ_SESSIONS=$(zellij list-sessions)
