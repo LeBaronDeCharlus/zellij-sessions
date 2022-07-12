@@ -1,10 +1,11 @@
 [![Maintainer](https://img.shields.io/badge/maintainer-corentinderet-blue)](https://github.com/Kaderovski)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+<h1 align="center">Zellij Sessions</h1>
+<p align="center"><i>Manage your Zellij sessions on starting your favorite shell</i></p>
+
 <p align="center">
     <img src="./statics/sessions.gif">
 </p>
-<h1 align="center">Zellij Sessions</h1>
-<p align="center"><i>Manage your Zellij sessions on starting your favorite shell</i></p>
 
 # Dependencies
 
@@ -12,8 +13,7 @@ You need <a href="https://github.com/lotabout/skim" target="_blank">sk</a> binar
 
 # Installation
 
-You can add this block at the end of your `$SHELLrc` file <i>(tested on BASH and ZSH)</i>:
-
+Add this block at the end of your `$SHELLrc` file <i>(tested with BASH and ZSH)</i> :
 ```shell
 ZJ_SESSIONS=$(zellij list-sessions)
 NO_SESSIONS=$(echo "${ZJ_SESSIONS}" | wc -l)
